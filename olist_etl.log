@@ -1,0 +1,367 @@
+2025-06-20 12:49:27,583 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 12:49:33,157 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 12:49:33,161 - INFO - \u2705 Connected to new database.
+2025-06-20 12:49:33,161 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 12:49:33,542 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 12:49:34,158 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 12:49:34,399 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 12:49:35,288 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 12:49:36,437 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 12:49:36,560 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 12:49:36,580 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 12:49:36,589 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 12:49:36,589 - INFO - \U0001f680 Ingestion started at: 2025-06-20 12:49:36
+2025-06-20 12:49:43,037 - INFO - \u2705 Inserted 99441 rows into 'olist_customers'.
+2025-06-20 12:49:55,211 - INFO - \u2705 Inserted 112650 rows into 'olist_order_items'.
+2025-06-20 12:50:03,308 - INFO - \u2705 Inserted 103886 rows into 'olist_order_payments'.
+2025-06-20 12:50:11,531 - INFO - \u2705 Inserted 99224 rows into 'olist_order_reviews'.
+2025-06-20 12:50:21,106 - INFO - \u2705 Inserted 99441 rows into 'olist_orders'.
+2025-06-20 12:50:25,663 - INFO - \u2705 Inserted 32951 rows into 'olist_products'.
+2025-06-20 12:50:25,887 - INFO - \u2705 Inserted 3095 rows into 'olist_sellers'.
+2025-06-20 12:50:25,956 - INFO - \u2705 Inserted 71 rows into 'product_category_translation'.
+2025-06-20 12:50:25,956 - INFO - \U0001f3c1 Ingestion completed at: 2025-06-20 12:50:25
+2025-06-20 12:50:25,956 - INFO - \U0001f552 Total ingestion time: 0:00:49.366865
+2025-06-20 12:50:25,956 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 12:51:28,139 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 12:51:33,711 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 12:51:33,714 - INFO - \u2705 Connected to new database.
+2025-06-20 12:51:33,714 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 12:51:34,152 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 12:51:34,782 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 12:51:35,043 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 12:51:35,961 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 12:51:36,933 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 12:51:37,049 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 12:51:37,063 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 12:51:37,073 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 12:51:37,158 - INFO - \U0001f680 Ingestion started at: 2025-06-20 12:51:37
+2025-06-20 12:51:43,175 - INFO - \u2705 Inserted 99441 rows into 'olist_customers'.
+2025-06-20 12:51:55,315 - INFO - \u2705 Inserted 112650 rows into 'olist_order_items'.
+2025-06-20 12:52:03,410 - INFO - \u2705 Inserted 103886 rows into 'olist_order_payments'.
+2025-06-20 12:52:11,937 - INFO - \u2705 Inserted 99224 rows into 'olist_order_reviews'.
+2025-06-20 12:52:21,439 - INFO - \u2705 Inserted 99441 rows into 'olist_orders'.
+2025-06-20 12:52:26,397 - INFO - \u2705 Inserted 32951 rows into 'olist_products'.
+2025-06-20 12:52:26,638 - INFO - \u2705 Inserted 3095 rows into 'olist_sellers'.
+2025-06-20 12:52:26,703 - INFO - \u2705 Inserted 71 rows into 'product_category_translation'.
+2025-06-20 12:52:26,710 - INFO - \U0001f3c1 Ingestion completed at: 2025-06-20 12:52:26
+2025-06-20 12:52:26,710 - INFO - \U0001f552 Total ingestion time: 0:00:49.552216
+2025-06-20 12:52:26,710 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 12:55:38,091 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 12:55:43,591 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 12:55:43,594 - INFO - \u2705 Connected to new database.
+2025-06-20 12:55:43,594 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 12:55:44,054 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 12:55:44,759 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 12:55:45,080 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 12:55:46,142 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 12:55:47,170 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 12:55:47,296 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 12:55:47,312 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 12:55:47,312 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 12:55:47,411 - INFO - \U0001f680 Ingestion started at: 2025-06-20 12:55:47
+2025-06-20 12:55:54,149 - INFO - \u2705 Inserted 99441 rows into 'olist_customers'.
+2025-06-20 12:56:06,278 - INFO - \u2705 Inserted 112650 rows into 'olist_order_items'.
+2025-06-20 12:56:14,258 - INFO - \u2705 Inserted 103886 rows into 'olist_order_payments'.
+2025-06-20 12:56:23,268 - INFO - \u2705 Inserted 99224 rows into 'olist_order_reviews'.
+2025-06-20 12:56:32,935 - INFO - \u2705 Inserted 99441 rows into 'olist_orders'.
+2025-06-20 12:56:38,602 - INFO - \u2705 Inserted 32951 rows into 'olist_products'.
+2025-06-20 12:56:38,906 - INFO - \u2705 Inserted 3095 rows into 'olist_sellers'.
+2025-06-20 12:56:38,981 - INFO - \u2705 Inserted 71 rows into 'product_category_translation'.
+2025-06-20 12:56:38,981 - INFO - \U0001f3c1 Ingestion completed at: 2025-06-20 12:56:38
+2025-06-20 12:56:38,981 - INFO - \U0001f552 Total ingestion time: 0:00:51.569207
+2025-06-20 12:56:38,981 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 12:57:37,157 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 12:57:42,740 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 12:57:42,743 - INFO - \u2705 Connected to new database.
+2025-06-20 12:57:42,744 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 12:57:43,200 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 12:57:43,854 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 12:57:44,160 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 12:57:45,156 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 12:57:46,252 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 12:57:46,387 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 12:57:46,400 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 12:57:46,404 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 12:57:46,485 - INFO - \U0001f680 Ingestion started at: 2025-06-20 12:57:46
+2025-06-20 12:57:53,151 - INFO - \u2705 Inserted 99441 rows into 'olist_customers'.
+2025-06-20 12:58:05,506 - INFO - \u2705 Inserted 112650 rows into 'olist_order_items'.
+2025-06-20 12:58:13,701 - INFO - \u2705 Inserted 103886 rows into 'olist_order_payments'.
+2025-06-20 12:58:22,189 - INFO - \u2705 Inserted 99224 rows into 'olist_order_reviews'.
+2025-06-20 12:58:32,297 - INFO - \u2705 Inserted 99441 rows into 'olist_orders'.
+2025-06-20 12:58:36,847 - INFO - \u2705 Inserted 32951 rows into 'olist_products'.
+2025-06-20 12:58:37,064 - INFO - \u2705 Inserted 3095 rows into 'olist_sellers'.
+2025-06-20 12:58:37,123 - INFO - \u2705 Inserted 71 rows into 'product_category_translation'.
+2025-06-20 12:58:37,123 - INFO - \U0001f3c1 Ingestion completed at: 2025-06-20 12:58:37
+2025-06-20 12:58:37,123 - INFO - \U0001f552 Total ingestion time: 0:00:50.637823
+2025-06-20 12:58:37,123 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 13:03:18,550 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:03:24,197 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:03:24,201 - INFO - \u2705 Connected to new database.
+2025-06-20 13:03:24,201 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 13:03:24,779 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 13:03:25,498 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 13:03:25,717 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 13:03:26,808 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 13:03:27,751 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 13:03:27,859 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 13:03:27,882 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 13:03:27,884 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 13:03:27,974 - INFO - \U0001f680 Ingestion started at: 2025-06-20 13:03:27
+2025-06-20 13:03:34,879 - INFO - \u2705 Inserted 99441 rows into 'olist_customers'.
+2025-06-20 13:03:47,428 - INFO - \u2705 Inserted 112650 rows into 'olist_order_items'.
+2025-06-20 13:03:55,961 - INFO - \u2705 Inserted 103886 rows into 'olist_order_payments'.
+2025-06-20 13:04:04,837 - INFO - \u2705 Inserted 99224 rows into 'olist_order_reviews'.
+2025-06-20 13:04:14,449 - INFO - \u2705 Inserted 99441 rows into 'olist_orders'.
+2025-06-20 13:04:19,076 - INFO - \u2705 Inserted 32951 rows into 'olist_products'.
+2025-06-20 13:04:19,312 - INFO - \u2705 Inserted 3095 rows into 'olist_sellers'.
+2025-06-20 13:04:19,391 - INFO - \u2705 Inserted 71 rows into 'product_category_translation'.
+2025-06-20 13:04:19,391 - INFO - \U0001f3c1 Ingestion ended at: 2025-06-20 13:04:19
+2025-06-20 13:04:19,391 - INFO - \U0001f552 Total ingestion time: 0:00:51.416252
+2025-06-20 13:04:19,391 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 13:05:26,937 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:05:32,478 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:05:32,478 - INFO - \u2705 Connected to new database.
+2025-06-20 13:05:32,483 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 13:05:32,963 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 13:05:33,596 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 13:05:33,853 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 13:05:34,720 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 13:05:35,665 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 13:05:35,795 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 13:05:35,810 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 13:05:35,815 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 13:05:35,894 - INFO - \U0001f680 Ingestion started at: 2025-06-20 13:05:35
+2025-06-20 13:05:44,492 - INFO - \u2705 Inserted 99441 rows into 'olist_customers'.
+2025-06-20 13:05:58,382 - INFO - \u2705 Inserted 112650 rows into 'olist_order_items'.
+2025-06-20 13:06:06,385 - INFO - \u2705 Inserted 103886 rows into 'olist_order_payments'.
+2025-06-20 13:06:15,430 - INFO - \u2705 Inserted 99224 rows into 'olist_order_reviews'.
+2025-06-20 13:06:25,338 - INFO - \u2705 Inserted 99441 rows into 'olist_orders'.
+2025-06-20 13:06:29,757 - INFO - \u2705 Inserted 32951 rows into 'olist_products'.
+2025-06-20 13:06:29,993 - INFO - \u2705 Inserted 3095 rows into 'olist_sellers'.
+2025-06-20 13:06:30,066 - INFO - \u2705 Inserted 71 rows into 'product_category_translation'.
+2025-06-20 13:06:30,066 - INFO - \U0001f3c1 Ingestion ended at: 2025-06-20 13:06:30
+2025-06-20 13:06:30,066 - INFO - \U0001f552 Total ingestion time: 0:00:54.171957
+2025-06-20 13:06:30,066 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 13:18:17,001 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:18:22,547 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:18:22,550 - INFO - \u2705 Connected to new database.
+2025-06-20 13:18:22,550 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 13:18:22,926 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 13:18:23,584 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 13:18:23,884 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 13:18:24,882 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 13:18:25,888 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 13:18:26,021 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 13:18:26,031 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 13:18:26,040 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 13:18:26,040 - INFO - \U0001f552 Total data loading time: 3.49 seconds
+2025-06-20 13:18:26,146 - INFO - \U0001f680 Ingestion started at: 2025-06-20 13:18:26
+2025-06-20 13:18:32,641 - INFO - \u2705 Successfully ingested 'olist_customers' (99441 rows).
+2025-06-20 13:18:45,284 - INFO - \u2705 Successfully ingested 'olist_order_items' (112650 rows).
+2025-06-20 13:18:53,370 - INFO - \u2705 Successfully ingested 'olist_order_payments' (103886 rows).
+2025-06-20 13:19:02,118 - INFO - \u2705 Successfully ingested 'olist_order_reviews' (99224 rows).
+2025-06-20 13:19:11,522 - INFO - \u2705 Successfully ingested 'olist_orders' (99441 rows).
+2025-06-20 13:19:16,326 - INFO - \u2705 Successfully ingested 'olist_products' (32951 rows).
+2025-06-20 13:19:16,570 - INFO - \u2705 Successfully ingested 'olist_sellers' (3095 rows).
+2025-06-20 13:19:16,643 - INFO - \u2705 Successfully ingested 'product_category_translation' (71 rows).
+2025-06-20 13:19:16,643 - INFO - \U0001f3c1 Ingestion ended at: 2025-06-20 13:19:16
+2025-06-20 13:19:16,643 - INFO - \U0001f552 Total ingestion time: 0:00:50.496990
+2025-06-20 13:19:16,643 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 13:19:16,684 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:19:22,249 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:19:22,250 - INFO - \u2705 Connected to new database.
+2025-06-20 13:19:35,516 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:19:41,157 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:19:41,158 - INFO - \u2705 Connected to new database.
+2025-06-20 13:19:41,552 - ERROR - \u274c Failed to load data/olist_customers_dataset.csv: name 'dataframes' is not defined
+2025-06-20 13:19:42,213 - ERROR - \u274c Failed to load data/olist_order_items_dataset.csv: name 'dataframes' is not defined
+2025-06-20 13:19:42,510 - ERROR - \u274c Failed to load data/olist_order_payments_dataset.csv: name 'dataframes' is not defined
+2025-06-20 13:19:43,393 - ERROR - \u274c Failed to load data/olist_order_reviews_dataset.csv: name 'dataframes' is not defined
+2025-06-20 13:19:44,434 - ERROR - \u274c Failed to load data/olist_orders_dataset.csv: name 'dataframes' is not defined
+2025-06-20 13:19:44,571 - ERROR - \u274c Failed to load data/olist_products_dataset.csv: name 'dataframes' is not defined
+2025-06-20 13:19:44,587 - ERROR - \u274c Failed to load data/olist_sellers_dataset.csv: name 'dataframes' is not defined
+2025-06-20 13:19:44,587 - ERROR - \u274c Failed to load data/product_category_name_translation.csv: name 'dataframes' is not defined
+2025-06-20 13:20:50,653 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:20:56,304 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:20:56,306 - INFO - \u2705 Connected to new database.
+2025-06-20 13:20:56,306 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 13:20:56,732 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 13:20:57,446 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 13:20:57,732 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 13:20:58,680 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 13:20:59,737 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 13:20:59,860 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 13:20:59,875 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 13:20:59,875 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 13:20:59,965 - INFO - \U0001f680 Ingestion started at: 2025-06-20 13:20:59
+2025-06-20 13:21:00,183 - ERROR - \u274c Failed to insert into table 'olist_customers': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:21:00,277 - ERROR - \u274c Failed to insert into table 'olist_order_items': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:21:00,370 - ERROR - \u274c Failed to insert into table 'olist_order_payments': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:21:00,468 - ERROR - \u274c Failed to insert into table 'olist_order_reviews': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:21:00,578 - ERROR - \u274c Failed to insert into table 'olist_orders': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:21:00,667 - ERROR - \u274c Failed to insert into table 'olist_products': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:21:00,732 - ERROR - \u274c Failed to insert into table 'olist_sellers': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:21:00,826 - ERROR - \u274c Failed to insert into table 'product_category_translation': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:21:00,826 - INFO - \U0001f3c1 Ingestion ended at: 2025-06-20 13:21:00
+2025-06-20 13:21:00,826 - INFO - \U0001f552 Total ingestion time: 0:00:00.863185
+2025-06-20 13:21:00,826 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 13:23:19,472 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:23:24,976 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:23:24,977 - INFO - \u2705 Connected to new database.
+2025-06-20 13:23:24,977 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 13:23:25,246 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 13:23:25,585 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 13:23:25,696 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 13:23:26,139 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 13:23:26,728 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 13:23:26,798 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 13:23:26,811 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 13:23:26,814 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 13:23:26,872 - INFO - \U0001f680 Ingestion started at: 2025-06-20 13:23:26
+2025-06-20 13:23:26,947 - ERROR - \u274c Failed to insert into table 'olist_customers': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:23:27,042 - ERROR - \u274c Failed to insert into table 'olist_order_items': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:23:27,227 - ERROR - \u274c Failed to insert into table 'olist_order_payments': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:23:27,303 - ERROR - \u274c Failed to insert into table 'olist_order_reviews': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:23:27,370 - ERROR - \u274c Failed to insert into table 'olist_orders': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:23:27,431 - ERROR - \u274c Failed to insert into table 'olist_products': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:23:27,519 - ERROR - \u274c Failed to insert into table 'olist_sellers': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:23:27,703 - ERROR - \u274c Failed to insert into table 'product_category_translation': (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:23:27,703 - INFO - \U0001f3c1 Ingestion ended at: 2025-06-20 13:23:27
+2025-06-20 13:23:27,703 - INFO - \U0001f552 Total ingestion time: 0:00:00.831437
+2025-06-20 13:23:27,703 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 13:27:20,187 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:27:25,844 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:27:25,847 - INFO - \u2705 Connected to new PostgreSQL database.
+2025-06-20 13:27:25,847 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 13:27:26,289 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 13:27:26,944 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 13:27:27,191 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 13:27:28,064 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 13:27:29,091 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 13:27:29,225 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 13:27:29,241 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 13:27:29,246 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 13:27:29,246 - INFO - \U0001f552 Total data loading time: 3.4 seconds
+2025-06-20 13:27:29,332 - INFO - \U0001f680 Ingestion started at: 2025-06-20 13:27:29
+2025-06-20 13:27:36,212 - INFO - \u2705 Successfully ingested 'olist_customers' (99441 rows).
+2025-06-20 13:27:48,265 - INFO - \u2705 Successfully ingested 'olist_order_items' (112650 rows).
+2025-06-20 13:27:56,247 - INFO - \u2705 Successfully ingested 'olist_order_payments' (103886 rows).
+2025-06-20 13:28:04,886 - INFO - \u2705 Successfully ingested 'olist_order_reviews' (99224 rows).
+2025-06-20 13:28:14,269 - INFO - \u2705 Successfully ingested 'olist_orders' (99441 rows).
+2025-06-20 13:28:18,813 - INFO - \u2705 Successfully ingested 'olist_products' (32951 rows).
+2025-06-20 13:28:19,057 - INFO - \u2705 Successfully ingested 'olist_sellers' (3095 rows).
+2025-06-20 13:28:19,122 - INFO - \u2705 Successfully ingested 'product_category_translation' (71 rows).
+2025-06-20 13:28:19,122 - INFO - \U0001f3c1 Ingestion ended at: 2025-06-20 13:28:19
+2025-06-20 13:28:19,122 - INFO - \U0001f552 Total ingestion time: 0:00:49.790833
+2025-06-20 13:28:19,122 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 13:33:05,001 - INFO - === OLIST RAW DATA INGESTION STARTED ===
+2025-06-20 13:33:10,573 - ERROR - \u274c Error creating database: database "olist_db1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+2025-06-20 13:33:10,575 - INFO - \u2705 Connected to new PostgreSQL database.
+2025-06-20 13:33:10,576 - INFO - \U0001f4c2 Loading raw CSV files into memory...
+2025-06-20 13:33:11,013 - INFO - \u2705 Loaded data/olist_customers_dataset.csv \u2192 olist_customers (rows: 99441)
+2025-06-20 13:33:11,695 - INFO - \u2705 Loaded data/olist_order_items_dataset.csv \u2192 olist_order_items (rows: 112650)
+2025-06-20 13:33:11,976 - INFO - \u2705 Loaded data/olist_order_payments_dataset.csv \u2192 olist_order_payments (rows: 103886)
+2025-06-20 13:33:13,053 - INFO - \u2705 Loaded data/olist_order_reviews_dataset.csv \u2192 olist_order_reviews (rows: 99224)
+2025-06-20 13:33:14,220 - INFO - \u2705 Loaded data/olist_orders_dataset.csv \u2192 olist_orders (rows: 99441)
+2025-06-20 13:33:14,349 - INFO - \u2705 Loaded data/olist_products_dataset.csv \u2192 olist_products (rows: 32951)
+2025-06-20 13:33:14,367 - INFO - \u2705 Loaded data/olist_sellers_dataset.csv \u2192 olist_sellers (rows: 3095)
+2025-06-20 13:33:14,375 - INFO - \u2705 Loaded data/product_category_name_translation.csv \u2192 product_category_translation (rows: 71)
+2025-06-20 13:33:14,375 - INFO - \U0001f552 Total data loading time: 3.8 seconds
+2025-06-20 13:33:14,471 - INFO - \U0001f680 Ingestion started at: 2025-06-20 13:33:14
+2025-06-20 13:33:21,546 - INFO - \u2705 Successfully ingested 'olist_customers' (99441 rows).
+2025-06-20 13:33:34,392 - INFO - \u2705 Successfully ingested 'olist_order_items' (112650 rows).
+2025-06-20 13:33:42,203 - INFO - \u2705 Successfully ingested 'olist_order_payments' (103886 rows).
+2025-06-20 13:33:51,158 - INFO - \u2705 Successfully ingested 'olist_order_reviews' (99224 rows).
+2025-06-20 13:33:58,662 - INFO - \u2705 Successfully ingested 'olist_orders' (99441 rows).
+2025-06-20 13:34:01,972 - INFO - \u2705 Successfully ingested 'olist_products' (32951 rows).
+2025-06-20 13:34:02,137 - INFO - \u2705 Successfully ingested 'olist_sellers' (3095 rows).
+2025-06-20 13:34:02,187 - INFO - \u2705 Successfully ingested 'product_category_translation' (71 rows).
+2025-06-20 13:34:02,187 - INFO - \U0001f3c1 Ingestion ended at: 2025-06-20 13:34:02
+2025-06-20 13:34:02,187 - INFO - \U0001f552 Total ingestion time: 0:00:47.715731
+2025-06-20 13:34:02,187 - INFO - === OLIST RAW DATA INGESTION FINISHED ===
+2025-06-20 13:43:21,463 - INFO - \u2705 SQLAlchemy engine created successfully.
+2025-06-20 13:43:21,463 - INFO - \U0001f680 Ingestion started at 2025-06-20 13:43:21
+2025-06-20 13:43:21,784 - ERROR - \u274c Error loading data/olist_customers_dataset.csv: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:43:22,251 - ERROR - \u274c Error loading data/olist_order_items_dataset.csv: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:43:22,440 - ERROR - \u274c Error loading data/olist_order_payments_dataset.csv: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:43:22,970 - ERROR - \u274c Error loading data/olist_order_reviews_dataset.csv: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:43:23,480 - ERROR - \u274c Error loading data/olist_orders_dataset.csv: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:43:23,619 - ERROR - \u274c Error loading data/olist_products_dataset.csv: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:43:23,699 - ERROR - \u274c Error loading data/olist_sellers_dataset.csv: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:43:23,794 - ERROR - \u274c Error loading data/product_category_name_translation.csv: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-20 13:43:23,794 - INFO - \U0001f3c1 Ingestion ended at 2025-06-20 13:43:23
+2025-06-20 13:43:23,794 - INFO - \U0001f552 Total ingestion time: 0:00:02.331108
